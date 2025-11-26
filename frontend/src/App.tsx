@@ -1,7 +1,6 @@
-import { use, useState } from "react";
+import {  useState } from "react";
 import Header from "./components/Header";
 import Text from "./components/Text";
-import axios from "axios";
 
 function App() {
   const [parsedText, setParsedText] = useState<string|null>("This is the parsed text");
